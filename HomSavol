@@ -1,0 +1,225 @@
+### Task 1
+Create a Dart class **`Square`** with a method **`int area()`** that calculates and returns the area of the square.
+
+----
+
+Создайте класс **`Square`** на Dart с методом **`int area()`**, который вычисляет и возвращает площадь квадрата.
+
+----
+
+Класс **`Square`** дар Dart эҷод кунед бо методи **`int area()`**, ки майдони мураббаъро ҳисоб мекунад ва бармегардонад.
+
+**Input**
+```
+4
+```
+**Output**
+```
+16
+```
+
+----
+
+### Task 2
+Implement a Dart method **`List<int> findMultiples(int num, int limit)`** that returns a list of all multiples of `num` up to `limit`.
+
+----
+
+Реализуйте метод **`List<int> findMultiples(int num, int limit)`** на Dart, который возвращает список всех кратных `num` до `limit`.
+
+----
+
+Метод **`List<int> findMultiples(int num, int limit)`** дар Dart нависед, ки рӯйхати ҳамаи кратҳои `num`-ро то `limit` бармегардонад.
+
+**Input**
+```
+3, 10
+```
+**Output**
+```
+[3, 6, 9]
+```
+
+----
+
+### Task 3
+Write a Dart function **`bool areAnagrams(String word1, String word2)`** that checks if two words are anagrams of each other.
+
+----
+
+Напишите функцию **`bool areAnagrams(String word1, String word2)`** на Dart, которая проверяет, являются ли два слова анаграммами друг друга.
+
+----
+
+Функция **`bool areAnagrams(String word1, String word2)`** дар Dart нависед, ки баррасӣ мекунад, ки оё ду калима анаграмҳои якдигаранд.
+
+**Input**
+```
+listen, silent
+```
+**Output**
+```
+true
+```
+
+----
+
+### Task 4
+Create a Dart class **`Calculator`** with methods for addition, subtraction, multiplication, and division that handle possible exceptions like division by zero.
+
+----
+
+Создайте класс **`Calculator`** на Dart с методами для сложения, вычитания, умножения и деления, которые обрабатывают возможные исключения, такие как деление на ноль.
+
+----
+
+Класс **`Calculator`** дар Dart эҷод кунед бо методҳо барои ҷамъ, кам, зарб ва тақсим, ки истисноҳои эҳтимолиро мисли тақсим ба сифр кор мекунанд.
+
+**Input**
+```
+Add: 5 + 3, Divide: 10 / 0
+```
+**Output**
+```
+Add: 8, Divide: Error
+```
+
+----
+
+### Task 5
+Implement a Dart method **`String longestWord(String sentence)`** that returns the longest word in a given sentence.
+
+----
+
+Реализуйте метод **`String longestWord(String sentence)`** на Dart, который возвращает самое длинное слово в данном предложении.
+
+----
+
+Метод **`String longestWord(String sentence)`** дар Dart нависед, ки калимаи дарозтаринро дар як ҷумла бармегардонад.
+
+**Input**
+```
+The quick brown fox
+```
+**Output**
+```
+quick
+```
+
+----
+
+### Task 6
+Write a Dart class **`EmailParser`** that extracts and returns the domain part of an email address from a given string.
+
+----
+
+Напишите класс **`EmailParser`** на Dart, который извлекает и возвращает доменную часть адреса электронной почты из данной строки.
+
+----
+
+Класс **`EmailParser`** дар Dart нависед, ки қисми домени суроғаи электрониро аз матни дода шуда истихроҷ ва бармегардонад.
+
+**Input**
+```
+user@example.com
+
+
+```
+**Output**
+```
+example.com
+```
+
+----
+
+### Task 7
+Implement a Dart method **`void printPyramid(int levels)`** that prints a pyramid with the specified number of levels using `*`.
+
+----
+
+Реализуйте метод **`void printPyramid(int levels)`** на Dart, который печатает пирамиду с указанным числом уровней, используя `*`.
+
+----
+
+Метод **`void printPyramid(int levels)`** дар Dart нависед, ки пирамидаи бо шумораи муайяншудаи сатҳҳо бо истифода аз `*` чоп мекунад.
+
+**Input**
+```
+5
+```
+**Output**
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+----
+
+### Task 8
+Create a Dart class **`ShoppingCart`** with methods to add items, remove items, and calculate the total price.
+
+----
+
+Создайте класс **`ShoppingCart`** на Dart с методами для добавления товаров, удаления товаров и расчета общей стоимости.
+
+----
+
+Класс **`ShoppingCart`** дар Dart эҷод кунед бо методҳо барои илова кардани маҳсулот, ҳазф кардани маҳсулот ва ҳисоб кардани нархи умумӣ.
+
+**Input**
+```
+Add: Milk, Bread; Remove: Bread; Total
+```
+**Output**
+```
+Total: Price of Milk
+```
+
+----
+
+### Task 9
+Write a Dart function **`int countVowels(String text)`** that counts and returns the number of vowels in a given text.
+
+----
+
+Напишите функцию **`int countVowels(String text)`** на Dart, которая подсчитывает и возвращает количество гласных в данном тексте.
+
+----
+
+Функция **`int countVowels(String text)`** дар Dart нависед, ки шумораи ҳарфҳои садоиро дар матни дода шуда ҳисоб ва бармегардонад.
+
+**Input**
+```
+Hello world
+```
+**Output**
+```
+3
+```
+
+----
+
+### Task 10
+Implement a Dart class **`User`** with a method **`String greet()`** that returns a personalized greeting message.
+
+----
+
+Реализуйте класс **`User`** на Dart с методом **`String greet()`**, который возвращает персонализированное приветственное сообщение.
+
+----
+
+Класс **`User`** дар Dart амалӣ кунед бо методи **`String greet()`**, ки паёми саломи шахсигардонидашударо бармегардонад.
+
+**Input**
+```
+Name: Alex
+```
+**Output**
+```
+Hello, Alex!
+```
+
+----
